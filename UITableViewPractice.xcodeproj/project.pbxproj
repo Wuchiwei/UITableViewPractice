@@ -12,6 +12,7 @@
 		3C7B46ED22E3728900A492D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B46EB22E3728900A492D5 /* Main.storyboard */; };
 		3C7B46EF22E3728900A492D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B46EE22E3728900A492D5 /* Assets.xcassets */; };
 		3C7B46F222E3728900A492D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B46F022E3728900A492D5 /* LaunchScreen.storyboard */; };
+		3C7B46FA22E3778400A492D5 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B46F922E3778400A492D5 /* ProfileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3C7B46EE22E3728900A492D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C7B46F122E3728900A492D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C7B46F322E3728900A492D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7B46F922E3778400A492D5 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3C7B46E722E3728900A492D5 /* AppDelegate.swift */,
 				3C7B46E922E3728900A492D5 /* ViewController.swift */,
+				3C7B46F922E3778400A492D5 /* ProfileTableViewCell.swift */,
 				3C7B46EB22E3728900A492D5 /* Main.storyboard */,
 				3C7B46EE22E3728900A492D5 /* Assets.xcassets */,
 				3C7B46F022E3728900A492D5 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7B46FA22E3778400A492D5 /* ProfileTableViewCell.swift in Sources */,
 				3C7B46EA22E3728900A492D5 /* ViewController.swift in Sources */,
 				3C7B46E822E3728900A492D5 /* AppDelegate.swift in Sources */,
 			);

@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bem-FT-VK2">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="bem-FT-VK2">
                                 <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NTU" rowHeight="64" id="LGC-9Y-hh3">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="64"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NTU" rowHeight="64" id="LGC-9Y-hh3" customClass="ProfileTableViewCell" customModule="UITableViewPractice" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="320" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LGC-9Y-hh3" id="mLf-gl-532">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
@@ -59,6 +59,11 @@
                                                 <constraint firstItem="Wcs-PG-6cH" firstAttribute="leading" secondItem="Qep-Lm-hJS" secondAttribute="trailing" constant="10" id="ttG-Fo-wGB"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="userImageView" destination="Qep-Lm-hJS" id="2rx-ts-S0b"/>
+                                            <outlet property="userNameLabel" destination="Wcs-PG-6cH" id="KHE-bR-Frj"/>
+                                            <outlet property="userQuoteLabel" destination="Q4J-rd-Tfl" id="Oic-sR-EpI"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
