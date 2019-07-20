@@ -65,7 +65,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
-        return "Section \(section) !"
+        if section == 0 {
+            
+            return "最近更新"
+            
+        } else {
+            
+            return "好友"
+        }
     }
     
     //MARK: - UITableViewDelegatez
