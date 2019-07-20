@@ -18,7 +18,14 @@ class ProfileTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        userImageView.layer.cornerRadius = 22.0
+        
+        userImageView.layer.borderColor = UIColor.gray.cgColor
+        
+        userImageView.layer.borderWidth = 2.0
+        
+        userImageView.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

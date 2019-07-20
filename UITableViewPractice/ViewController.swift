@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         if indexPath.section == 0 {
         
-            profileCell.imageView?.image = UIImage(named: "Steven_Jobs")
+            profileCell.userImageView?.image = UIImage(named: "Steven_Jobs")
             
             profileCell.userNameLabel.text = "Steven_Jobs"
             
@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         } else if indexPath.section == 1 {
         
-            profileCell.imageView?.image = UIImage(named: "Tim_Cook")
+            profileCell.userImageView?.image = UIImage(named: "Tim_Cook")
             
             profileCell.userNameLabel.text = "Tim_Cook"
             
